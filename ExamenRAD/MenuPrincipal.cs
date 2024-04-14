@@ -21,5 +21,26 @@ namespace ExamenRAD
         {
 
         }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PClientes clientes = new PClientes();
+            clientes.MdiParent = this;
+            clientes.Show();
+        }
+
+        private void reservaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PReserva reserva = new PReserva();
+            reserva.MdiParent = this;
+            reserva.Show();
+        }
+
+        private void tsEeatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PTeatros teatros = new PTeatros();
+            teatros.MdiParent = this;
+            teatros.Show();
+        }
     }
 }

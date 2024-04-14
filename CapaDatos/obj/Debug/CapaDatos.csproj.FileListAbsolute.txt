@@ -10,3 +10,7 @@ C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\ExamenRAD\CapaDatos\obj\Debug
 C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\ExamenRAD\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
 C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\ExamenRAD\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\ExamenRAD\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\ExamenRAD\CapaDatos\obj\Debug\CapaDatos.Migrations.AddTablaClientes.resources
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\ExamenRAD\CapaDatos\obj\Debug\CapaDatos.csproj.GenerateResource.cache
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\ExamenRAD\CapaDatos\obj\Debug\CapaDatos.Migrations.AddTablaTeatros.resources
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\ExamenRAD\CapaDatos\obj\Debug\CapaDatos.Migrations.AddTablaReserva.resources

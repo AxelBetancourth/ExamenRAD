@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDatos.BaseDatos.Modelos;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -21,5 +22,9 @@ namespace CapaDatos.BaseDatos
             modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+
+        public DbSet<Clientes> Clientes { get; set; }
+        public DbSet<Teatros> Teatros { get; set; }
+        public DbSet<Reserva> Reserva { get; set; }
     }
 }

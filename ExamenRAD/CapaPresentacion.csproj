@@ -62,10 +62,52 @@
     <Compile Include="MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="PBuscarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PBuscarClientes.Designer.cs">
+      <DependentUpon>PBuscarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PBuscarTeatros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PBuscarTeatros.Designer.cs">
+      <DependentUpon>PBuscarTeatros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PClientes.Designer.cs">
+      <DependentUpon>PClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PReserva.Designer.cs">
+      <DependentUpon>PReserva.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PTeatros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTeatros.Designer.cs">
+      <DependentUpon>PTeatros.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PBuscarClientes.resx">
+      <DependentUpon>PBuscarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PBuscarTeatros.resx">
+      <DependentUpon>PBuscarTeatros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PClientes.resx">
+      <DependentUpon>PClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PReserva.resx">
+      <DependentUpon>PReserva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -76,6 +118,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PTeatros.resx">
+      <DependentUpon>PTeatros.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -19,6 +19,7 @@ namespace ExamenRAD
         {
             InitializeComponent();
             nReserva = new NReserva();
+            CargarDatos();
         }
 
         private void PReserva_Load(object sender, EventArgs e)
@@ -27,7 +28,7 @@ namespace ExamenRAD
         }
         void CargarDatos()
         {
-            dgReserva.DataSource = nReserva.MostrarReserva();
+            dgReserva.DataSource = nReserva.MostrarReservaGrid();
         }
 
         void LimpiarDatos()
